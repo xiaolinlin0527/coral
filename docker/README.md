@@ -43,4 +43,4 @@
 ## Build binaries via Docker and output onto host system
 ```
 ~$ docker buildx build -f docker/Dockerfile --output type=local,dest=output .
-```
+```cargo run --bin coral-cli validator keygen --guardian-threshold 1 --module-name 0x5055464645525f4d4f44554c455f300000000000000000000000000000000000 --withdrawal-credentials 0x0100000000000000000000005ee9246f01e95c08ee767029c1d18765bb1779d0 --guardian-pubkeys 0x049cc1fbaa3cffd3e4c1f935c47720d013938ccb822a9cbd20c5f09ab65ae8300e7986b6ce75e916d3b59599ece72134adf2972d06a76a8ba5f3747d356117c342 --fork-version 0x01017000 --password-file <PATH_TO_A_KEYSTORE_PASSWORD_FILE> --output-file <PATH_TO_REGISTRATION_JSON>
